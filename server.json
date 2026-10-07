@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.wjjnew123/gsc-wp",
+  "description": "Google Search Console 搜索数据 + WordPress 内容读取 + SEO 机会分析，22 个只读工具；控制台配置你自己的凭据（加密存储）。",
+  "version": "4.8.9",
+  "repository": { "url": "https://github.com/wjjnew123/gsc-wp", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpweb.wjjnew.cn/gsc-wp/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Bearer <mcp_sk_xxx>（在 https://mcpweb.wjjnew.cn/ 注册获取）", "isSecret": true, "isRequired": true }
+      ]
+    }
+  ]
+}
