@@ -1,5 +1,7 @@
 # gsc-wp — GSC + WP + SEO（MCP 工具集）
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/wjjnew123/gsc-wp)
+
 Google Search Console 搜索数据 + WordPress 内容读取 + SEO 机会分析，共 **22 个只读工具**。
 
 - 聚合端点：`https://mcpweb.wjjnew.cn/gsc-wp/mcp`
